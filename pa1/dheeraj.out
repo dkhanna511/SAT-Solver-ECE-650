@@ -1,0 +1,181 @@
+Getting new string
+1   CONSTANT
+VAr   VARIABLE
+ string is 
+1 * VAr VAr   VARIABLE
+1   CONSTANT
+,   VARIABLE
+VAr   VARIABLE
+0   CONSTANT
+ string is 
+VAr : 1 , VAr : 0 Error: contradicting assignments
+Getting new string
+1   CONSTANT
+VAr   VARIABLE
+ string is 
+1 * VAr VAr   VARIABLE
+1   CONSTANT
+ string is 
+VAr : 1 answer is : 1
+Getting new string
+1   CONSTANT
+VAr   VARIABLE
+ string is 
+1 * VAr VAr   VARIABLE
+0   CONSTANT
+ string is 
+VAr : 0 answer is : 0
+Getting new string
+1   CONSTANT
+VAr   VARIABLE
+0   CONSTANT
+ string is 
+1 * VAr + 0 1   CONSTANT
+VAr   VARIABLE
+0   CONSTANT
+ string is 
+1 * VAr + 0 answer is : 1
+Getting new string
+1   CONSTANT
+VAr   VARIABLE
+0   CONSTANT
+ string is 
+1 * VAr + 0 VAr   VARIABLE
+1   CONSTANT
+ string is 
+VAr 1 answer is : 1
+Getting new string
+1   CONSTANT
+VAr   VARIABLE
+0   CONSTANT
+ string is 
+1 * ( VAr + 0 )  string is 
+Error: Invalid String
+Getting new string
+A   VARIABLE
+B   VARIABLE
+0   CONSTANT
+1   CONSTANT
+CD   VARIABLE
+ string is 
+A + B * - 0 * ( 1 + - CD ) A   VARIABLE
+1   CONSTANT
+,   VARIABLE
+B   VARIABLE
+0   CONSTANT
+,   VARIABLE
+CD   VARIABLE
+1   CONSTANT
+ string is 
+A : 1 , B : 0 , CD : 1 Error: Invalid String
+Getting new string
+A   VARIABLE
+B   VARIABLE
+0   CONSTANT
+1   CONSTANT
+CD   VARIABLE
+ string is 
+A + B * - 0 * ( 1 + - CD ) A   VARIABLE
+0   CONSTANT
+,   VARIABLE
+B   VARIABLE
+0   CONSTANT
+,   VARIABLE
+CD   VARIABLE
+1   CONSTANT
+ string is 
+A : 0 , B : 0 , CD : 1 Error: Invalid String
+Getting new string
+Ur   VARIABLE
+c   VARIABLE
+ string is 
+Ur * c Ur   VARIABLE
+1   CONSTANT
+,   VARIABLE
+c   VARIABLE
+1   CONSTANT
+ string is 
+Ur : 1 , c : 1 answer is : 1
+Getting new string
+Ur   VARIABLE
+c   VARIABLE
+1   CONSTANT
+0   CONSTANT
+ string is 
+Ur * c * ( 1 + 0 ) ) Ur   VARIABLE
+1   CONSTANT
+,   VARIABLE
+c   VARIABLE
+1   CONSTANT
+ string is 
+Ur : 1 , c : 1 Error: Invalid String
+Getting new string
+Ur   VARIABLE
+c   VARIABLE
+1   CONSTANT
+0   CONSTANT
+ string is 
+Ur * c * ( 1 + 0 ) Ur   VARIABLE
+1   CONSTANT
+,   VARIABLE
+c   VARIABLE
+1   CONSTANT
+ string is 
+Ur : 1 , c : 1 Error: Invalid String
+Getting new string
+1   CONSTANT
+a1   VARIABLE
+VAr   VARIABLE
+ string is 
+( 1 * ( a1 + VAr ) ) VAr   VARIABLE
+1   CONSTANT
+,   VARIABLE
+a1   VARIABLE
+0   CONSTANT
+,   VARIABLE
+VAr   VARIABLE
+0   CONSTANT
+ string is 
+VAr : 1 , a1 : 0 , VAr : 0 Error: Invalid String
+Getting new string
+1   CONSTANT
+a1   VARIABLE
+VAr   VARIABLE
+ string is 
+( 1 * ( a1 + VAr ) ) VAr   VARIABLE
+1   CONSTANT
+,   VARIABLE
+a1   VARIABLE
+0   CONSTANT
+,   VARIABLE
+VAr   VARIABLE
+1   CONSTANT
+ string is 
+VAr : 1 , a1 : 0 , VAr : 1 Error: Invalid String
+Getting new string
+1   CONSTANT
+0   CONSTANT
+1   CONSTANT
+ string is 
+1 * 0 + - 1  string is 
+answer is : 0
+Getting new string
+1   CONSTANT
+0   CONSTANT
+1   CONSTANT
+ string is 
+( 1 * ( 0 + 1 ) )  string is 
+Error: Invalid String
+Getting new string
+1   CONSTANT
+0   CONSTANT
+Var   VARIABLE
+ string is 
+( 1 + 0 + Var ) Var   VARIABLE
+ string is 
+Var : : Error: Invalid String
+Getting new string
+1   CONSTANT
+ string is 
+1 * 1   CONSTANT
+ string is 
